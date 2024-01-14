@@ -121,9 +121,9 @@ Below is shown the unified MOR Supply Curve showing the first 5,833 day period a
 The Morpheus full node comes with a wallet or the user can connect their existing wallet. This enables the user to sign and send transactions recommended by their Smart Agent. So users will be able to participate in the proofs through the Morpheus software. However Capital Providers are not required to have a full node for example. They can interact directly with the Smart Contracts on Ethereum / Arbitrum using stETH.
 
 ## Capital Proof & Reward:
-The definition of a Capital Provider is someone provides stETH yield to the Morpheus network which becomes Protocol Owned Liquidity. This Capital Provider Smart Contract will provide 50% of the stETH yield produced to the Morpheus swap function. The swap buys the MOR tokens from an Automated Market Maker (AMM) then added it into the AMM pool and the other 50% of the stETH yield gets locked into the AMM as a Liquitiy Provider. This will provide liquidity to all those coders, community members and compute providers. 
+The definition of a Capital Provider is someone provides stETH yield to the Morpheus network which becomes Protocol Owned Liquidity (PoL). This Capital Provider Smart Contract will provide 50% of the stETH yield produced to the Morpheus swap function. The swap buys the MOR tokens from an Automated Market Maker (AMM) and pairs them with other 50% of the stETH yield, then adds and lock in the AMM Liquity Pool as PoL. This will provide liquidity to all those coders, community members and compute providers. The fees earned by liquidity position are re-invested in the pool ensuring steady liquidity growth.
 
-All stETH yield earned from your deposit is converted into protocol-owned liquidity (PoL). The yield remains as PoL indefinitely, but you can withdraw your stETH whenever.
+This way all stETH yield earned from your deposit is converted into protocol-owned liquidity (PoL). The yield remains as PoL indefinitely, but you can withdraw your stETH whenever.
 
 As a result, the Capital Provider will receive MOR tokens each day in pro-rata to their total stETH yield contributed. For example, if there are 100 Capital Providers who each contributed 1 stETH of yield on day 1 when the network launches, then each one gets 1% of the 3,456 MOR tokens each day = 34.56 MOR.
 
